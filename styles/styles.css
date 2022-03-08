@@ -279,7 +279,7 @@ h2 {
 h3 {
   font-size: 2.7rem;
   line-height: 3rem;
-  margin-bottom: 24rem;
+  margin-bottom: 24px;
 }
 
 h4 {
@@ -540,4 +540,31 @@ button.menuIcon:focus {
 }
 .navBar .slideOutNav .legal a:hover, .navBar .slideOutNav .legal a:focus {
   color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 90px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #f8fbf3;
+}
+header .headerImgContainer {
+  width: 45%;
+}
+header .headerImgContainer img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+header .headerContent {
+  width: 55%;
+}
+header .headerContent .contentContainer {
+  width: 65%;
+  margin: 0 auto;
 }
