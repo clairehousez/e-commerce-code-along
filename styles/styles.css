@@ -408,3 +408,9 @@ button.menuIcon:hover {
 button.menuIcon:focus {
   background-color: transparent;
 }
+
+.announcements {
+  border-bottom: 1px solid rgba(8, 75, 109, 0.08);
+  padding: 10px 0;
+  text-align: center;
+}
