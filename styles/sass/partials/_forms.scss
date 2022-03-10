@@ -1,0 +1,16 @@
+.mapFormContainer {
+    display: flex;
+    .map {
+        width: 50%;
+        iframe {
+            width: 100%;
+        }
+    }
+}
+
+.contactForm {
+    width: calc(50% - 70px);
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
